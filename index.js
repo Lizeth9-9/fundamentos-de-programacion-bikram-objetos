@@ -76,7 +76,7 @@ Impresora.imprimiendo = {
 
 const Noticia = {
     titular: "Descubren un nuevo exoplaneta habitable",
-    cuerpo: "Un equipo internacional de astrónomos ha confirmado el hallazgo de un planeta con condiciones similares a la Tierra a solo 20 años luz.",
+    cuerpo: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus architecto eum id! Illum, ducimus quidem error soluta placeat eos voluptates incidunt excepturi, facilis corporis id sunt neque ad quisquam tempore.",
 };
 
 const Persona = {
@@ -132,3 +132,11 @@ const Pantalla = {
 };
 
 let pixeles = Pantalla.bidimensionalpixeles;
+
+const Movil = {
+    especificaciones : {}, 
+};
+
+let especificaciones = Movil["especificaciones"];
+
+
