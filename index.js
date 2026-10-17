@@ -129,14 +129,29 @@ const Pantalla = {
         ["negro", "blanco", "negro"],
         ["blanco", "negro", "blanco"],
     ],
+        dimensiones: "6958x5201",
 };
 
 let pixeles = Pantalla.bidimensionalpixeles;
 
 const Movil = {
     especificaciones : {}, 
+    temperatura : "10º" ,
 };
 
 let especificaciones = Movil["especificaciones"];
 
+const Grupo1 ={
+    numIntegrantes  : 1,
+};
+
+Grupo1.numIntegrantes = 3;
+Pantalla.dimensiones = "1920x1080";
+
+const Led1 = {
+    encendido: true,
+};
+
+Led1.encendido = !Led.encendido; 
+Movil.temperatura = "20º";
 
