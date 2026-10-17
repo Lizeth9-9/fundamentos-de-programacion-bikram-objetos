@@ -30,4 +30,42 @@ const perro = {
     },
 };
 
+const portatil = {
+    marca: "hp",
+    modelo: "HP Victus y OMEN",
+};
+let marcaPortatil = portatil.marca;
+
+let marcaPortatil2 = portatil["marca"];
+
+const concierto = {
+    grupos: ["rock", "bachata", "salsa"],
+    fecha: "01/04/2010",
+};
+
+let grupos = concierto["grupos"];
+
+const Led = {
+    rojo: "rojo",
+    verde: "verde",
+    azul: "azul",
+};
+
+let RGB = [Led[rojo], Led[verde], Led[azul]];
+
+portatil.modelo = "P345";
+
+concierto.cartelera = "Guns N' Roses";
+
+concierto.fecha = new Date();
+
+const Impresora = {
+    imprimiendo: "ok",
+};
+
+Impresora.imprimiendo = {
+    nombreArchivo: "documentos word",
+    copias: 2,
+    numPaginas: 5,
+};
 
