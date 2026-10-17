@@ -61,6 +61,11 @@ concierto.fecha = new Date();
 
 const Impresora = {
     imprimiendo: "ok",
+    tinta: {
+        rojo: "rojo",
+        verde: "verde",
+        azul: "azul",
+    },
 };
 
 Impresora.imprimiendo = {
@@ -69,3 +74,61 @@ Impresora.imprimiendo = {
     numPaginas: 5,
 };
 
+const Noticia = {
+    titular: "Descubren un nuevo exoplaneta habitable",
+    cuerpo: "Un equipo internacional de astrónomos ha confirmado el hallazgo de un planeta con condiciones similares a la Tierra a solo 20 años luz.",
+};
+
+const Persona = {
+    nombre: "Carlos",
+    apellidos: "Echevarria",
+    edad: 55,
+};
+
+const avion = {
+    numPasajeros: 300,
+    despegar: function () {
+        console.log("despegando");
+    },
+    volar: function () {
+        console.log("Llegando al destino");
+    },
+    aterrizar: function () {
+        console.log("aterrizando");
+    },
+};
+
+const Paquete = {
+    contenido: ["camiseta", "zapatos", "libro", "reloj"],
+};
+
+const Pais = {
+    numHabitantes: 48500000,
+    continente: "Europa",
+    gentilicio: "Español / española",
+};
+
+const O_Error = {
+    codigo: 1234656789,
+};
+
+let codError = O_Error.codigo;
+
+const Grupo = {
+    integrantes: [],
+};
+
+let integrantes = Grupo.integrantes;
+
+let nivelesTinta = Impresora.tinta;
+
+const Pantalla = {
+    bidimensionalpixeles: [
+        // bidimensional array de arrays , arrays dentro de un array
+        ["blanco", "negro", "blanco"],
+        ["negro", "blanco", "negro"],
+        ["blanco", "negro", "blanco"],
+    ],
+};
+
+let pixeles = Pantalla.bidimensionalpixeles;
